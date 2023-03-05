@@ -1,0 +1,41 @@
+{
+  "name": "dragnow-react",
+  "version": "1.8.6",
+  "description": "A React dragNow component",
+  "main": "./dist/Index.js",
+  "source": "./src/Index.tsx",
+  "types": "./dist/Index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint \"src/**/*.{ts,tsx}\""
+  },
+  "keywords": [
+    "dragNow",
+    "react",
+    "dragNow-react",
+    "react-dragNow",
+    "drag and drop",
+    "draggable",
+    "component"
+  ],
+  "author": "Mohammad Abuzar",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abuzar316/dragnow-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abuzar316/dragnow-react/issues"
+  },
+  "homepage": "https://github.com/abuzar316/dragnow-react",
+  "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-plugin-react": "^7.32.2",
+    "style-loader": "^3.3.1",
+    "typescript": "^4.9.5"
+  },
+  "peerDependencies": {
+    "@types/react": ">= 16.9.0",
+    "react": ">= 16.9.0"
+  }
+}
